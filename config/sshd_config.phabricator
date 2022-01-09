@@ -3,7 +3,7 @@
 
 # NOTE: Edit these to the correct values for your setup.
 
-AuthorizedKeysCommand /etc/phorge-ssh/phorge-ssh-hook.sh
+AuthorizedKeysCommand /etc/phabricator-ssh/phabricator-ssh-hook.sh
 AuthorizedKeysCommandUser git
 AllowUsers git
 
@@ -20,5 +20,5 @@ PrintLastLog no
 PasswordAuthentication no
 AuthorizedKeysFile none
 
-PidFile /run/sshd-phorge.pid
+PidFile /run/sshd-phabricator.pid
 

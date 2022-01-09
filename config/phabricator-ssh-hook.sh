@@ -3,7 +3,7 @@
 # NOTE: Replace this with the username that you expect users to connect with.
 VCSUSER="git"
 
-ROOT="/srv/phorge/phorge"
+ROOT="/srv/phabricator/phabricator"
 
 if [ "$1" != "$VCSUSER" ];
 then
